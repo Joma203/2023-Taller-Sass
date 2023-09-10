@@ -1,3 +1,4 @@
+@use '../utilities/variables' as v;
 :root {
     box-sizing: border-box;
 }
@@ -9,7 +10,7 @@
     margin: 0;
     padding: 0;
 
-    font-family: $theme-items-font;
+    font-family: v.$Font-family;
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: v.$weight-medium;
 }
